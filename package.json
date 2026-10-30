@@ -1,0 +1,20 @@
+{
+  "name": "api-artesanias",
+  "version": "1.0.0",
+  "description": "API REST para tienda de artesanías con Node.js, Express y MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["api", "express", "mysql", "artesanias"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.7"
+  }
+}
